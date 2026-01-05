@@ -1,0 +1,9 @@
+{
+    "folders": ["Pictures", "Documents", "Videos", "Music"],
+    "activecss": false,
+    "candellog": true,
+    "savelog": true,
+    "candowlog": true,
+    "langueagefrontend": "english",
+    "showbanner": true
+}

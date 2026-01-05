@@ -1,0 +1,95 @@
+/* Fondo general */
+.stApp {
+    background-color: white;
+    color: black;
+}
+
+/* Contenedores principales */
+.block-container {
+    background-color: white;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: white;
+    color: black;
+}
+
+/* Texto general */
+h1, h2, h3, h4, h5, h6,
+p, span, label, div {
+    color: black !important;
+}
+
+/* Botones */
+button {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+}
+
+/* Inputs */
+input, textarea, select {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+}
+
+/* Selectbox y multiselect */
+div[data-baseweb="select"] > div {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* Checkbox y radio */
+label span {
+    color: black !important;
+}
+
+/* Tablas */
+table {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* DataFrame */
+div[data-testid="stDataFrame"] {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* Expander */
+details {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black;
+}
+
+/* Alertas (info, warning, error, success) */
+div[data-testid="stAlert"] {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black;
+}
+
+/* Sliders */
+div[data-testid="stSlider"] {
+    color: black;
+}
+
+/* Scrollbars (opcional) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+.stAppHeader{
+    color: black;
+    background-color: white;
+}
+code{
+    background-color: white;
+    color: black;
+}
